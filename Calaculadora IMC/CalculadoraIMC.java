@@ -26,29 +26,29 @@ public class CalculadoraIMC {
         switch (genero) {
         case 'M', 'm':
             if (imc < 20) {
-                System.out.printf("%s, você está Abaixo do peso Normal." , nome);
+                System.out.printf("%s, Seu IMC e de: %.2f. Você está Abaixo do peso Normal." , nome, imc);
             } else if (20 <= imc && imc <= 24.9) {
-                System.out.printf("%s, você está de Acordo do peso Normal.", nome);
+                System.out.printf("%s, Seu IMC e de: %.2f. Você está de Acordo do peso Normal.", nome, imc);
             } else if (25 <= imc && imc<= 29.9) {
-                System.out.printf("%s, você possui Obesidade Leve.", nome);
+                System.out.printf("%s, Seu IMC e de: %.2f. Você possui Obesidade Leve.", nome, imc);
             } else if (30 <= imc && imc<= 39.9){
-                System.out.printf("%s, você possui Obesidade Moderada.", nome);
+                System.out.printf("%s, Seu IMC e de: %.2f. Você possui Obesidade Moderada.", nome, imc);
             } else {
-                System.out.printf("%s, você possui Obesidade Mórbida." , nome);
+                System.out.printf("%s, Seu IMC e de: %.2f. Você possui Obesidade Mórbida." , nome, imc);
             }
             break;
 
         case 'F', 'f', 'N', 'n':
             if (imc < 19) {
-                System.out.printf("%s, você está Abaixo do peso Normal." , nome);
+                System.out.printf("%s, Seu IMC e de: %.2f. Você está Abaixo do peso Normal." , nome, imc);
             } else if (19 <= imc && imc <= 23.9) {
-                System.out.printf("%s, você está de Acordo do peso Normal.", nome);
+                System.out.printf("%s, Seu IMC e de: %.2f. Você está de Acordo do peso Normal.", nome, imc);
             } else if (24 <= imc && imc<= 28.9) {
-                System.out.printf("%s, você possui Obesidade Leve.", nome);
+                System.out.printf("%s, Seu IMC e de: %.2f. Você possui Obesidade Leve.", nome, imc);
             } else if (29 <= imc && imc<= 38.9){
-                System.out.printf("%s, você possui Obesidade Moderada.", nome);
+                System.out.printf("%s, Seu IMC e de: %.2f. Você possui Obesidade Moderada.", nome, imc);
             } else {
-                System.out.printf("%s, você possui Obesidade Mórbida." , nome);
+                System.out.printf("%s, Seu IMC e de: %.2f. Você possui Obesidade Mórbida." , nome, imc);
             }
             break;
         default:
